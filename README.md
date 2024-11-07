@@ -1,42 +1,41 @@
-README - Capacitron Duel : Jeu Interactif de Réflexe et de Rapidité
+README - Capacitron Duel: Interactive Reflex and Speed Game
 
-Description du Jeu
+Game Description
 
-Capacitron Duel est un jeu de rapidité et de réflexe inspiré des jeux d'arcade, conçu pour deux joueurs. Les règles sont simples et le but est de tester les réflexes et la précision de chacun dans un affrontement direct.
+Capacitron Duel is a two-player reflex and speed game inspired by classic arcade games. The rules are simple: it’s a head-to-head test of reflexes and precision.
 
-But du Jeu
+Objective of the Game
 
-Deux joueurs s'affrontent en utilisant un capteur chacun. Le jeu se déroule jusqu'à ce que l’un des joueurs atteigne 9 points, ce qui met fin à la partie.
-Fonctionnement :
-Lorsque la LED rouge est allumée, les joueurs doivent éviter de toucher leur capteur, sous peine de perdre un point.
-Après un délai aléatoire, les LEDs vertes s'allument ; le premier joueur à toucher son capteur gagne un point.
-Étapes du Projet
-Ce projet suit une méthodologie de prototypage, essentielle pour concevoir et tester efficacement le jeu. Voici les principales étapes de conception :
+Two players compete, each using a sensor. The game continues until one player reaches 9 points, ending the match. Here’s how it works: when the red LED lights up, players must avoid touching their sensor, or they lose a point. After a random delay, the green LEDs light up; the first player to touch their sensor scores a point.
 
-Conceptualisation et Modélisation
+Project Stages
 
-Partquest : Modélisation des schémas électriques du jeu.
-Comsol : Simulation des forces physiques et analyse des électrodes pour optimiser leur performance.
-Tests Préliminaires :
-Prototype fonctionnel avec une électrode unique sur une carte pour valider le modèle de détection.
-Conception Finale :
-KiCad : Conception des PCB pour le circuit final.
-Autodesk Inventor : Modélisation et préparation des pièces pour impression 3D.
-STM32 CubeIDE : Programmation des cartes ST pour gérer les fonctions du jeu.
-Visual Studio : Organisation et structuration du code pour clarté et maintenance.
-Ressources
-Les outils suivants sont nécessaires pour développer et finaliser Capacitron Duel :
+This project uses a prototyping methodology to efficiently design and test the game. Key stages of development include:
 
-Modélisation et Simulation
+Conceptualization and Modeling
 
-Comsol : Simulation physique des forces pour les électrodes.
-Partquest : Modélisation et simulation des schémas électriques.
-Draw.io : Création de schémas conceptuels.
-Conception et Prototypage :
+Partquest: Electrical schematic modeling for the game.
+COMSOL: Simulation of physical forces and analysis of electrodes to optimize performance.
+Preliminary Testing: A functional prototype with a single electrode on a board to validate the detection model.
+Final Design:
+KiCad: PCB design for the final circuit.
+Autodesk Inventor: Modeling and preparation of parts for 3D printing.
+STM32 CubeIDE: Programming ST boards to manage game functions.
+Visual Studio: Organizing and structuring the code for clarity and maintainability.
+Resources
 
-KiCad : Conception des PCB.
-Autodesk Inventor : Modélisation des pièces pour l’impression.
-Développement Logiciel :
+The following tools are essential for developing and finalizing Capacitron Duel:
 
-STM32 CubeIDE : Codage sur cartes ST.
-Visual Studio : Mise en forme et gestion du code.
+Modeling and Simulation
+
+COMSOL: Physical simulation for electrode forces.
+Partquest: Electrical schematic modeling and simulation.
+Draw.io: Creation of conceptual diagrams.
+Design and Prototyping
+
+KiCad: PCB design.
+Autodesk Inventor: 3D part modeling for printing.
+Software Development
+
+STM32 CubeIDE: Coding for ST boards.
+Visual Studio: Code formatting and management.
