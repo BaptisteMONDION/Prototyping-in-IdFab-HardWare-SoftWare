@@ -1,41 +1,43 @@
-README - Capacitron Duel: Interactive Reflex and Speed Game
+# README - Capacitron Duel: Interactive Reflex and Speed Game
 
-Game Description
+## Game Description
 
-Capacitron Duel is a two-player reflex and speed game inspired by classic arcade games. The rules are simple: it’s a head-to-head test of reflexes and precision.
+**Capacitron Duel** is a two-player reflex and speed game inspired by classic arcade games. The rules are simple: it’s a head-to-head test of reflexes and precision.
 
-Objective of the Game
+## Objective of the Game
 
-Two players compete, each using a sensor. The game continues until one player reaches 9 points, ending the match. Here’s how it works: when the red LED lights up, players must avoid touching their sensor, or they lose a point. After a random delay, the green LEDs light up; the first player to touch their sensor scores a point.
+Two players compete, each using a sensor. The game continues until one player reaches **9 points**, concluding the match. Here's how it works:
+- **Red LED**: When lit, players must avoid touching their sensor to prevent losing a point.
+- **Green LEDs**: After a random delay, the green LEDs light up, and the first player to touch their sensor scores a point.
 
-Project Stages
+## Project Stages
 
-This project uses a prototyping methodology to efficiently design and test the game. Key stages of development include:
+This project follows a prototyping methodology to efficiently design and test the game. Key development stages include:
 
-Conceptualization and Modeling
+### Conceptualization and Modeling
+- **Partquest**: Used for electrical schematic modeling.
+- **COMSOL**: Simulates physical forces and analyzes electrodes to optimize performance.
+- **Preliminary Testing**: A prototype with a single electrode on a board validates the detection model.
 
-Partquest: Electrical schematic modeling for the game.
-COMSOL: Simulation of physical forces and analysis of electrodes to optimize performance.
-Preliminary Testing: A functional prototype with a single electrode on a board to validate the detection model.
-Final Design:
-KiCad: PCB design for the final circuit.
-Autodesk Inventor: Modeling and preparation of parts for 3D printing.
-STM32 CubeIDE: Programming ST boards to manage game functions.
-Visual Studio: Organizing and structuring the code for clarity and maintainability.
-Resources
+### Final Design
+- **KiCad**: PCB design for the final circuit.
+- **Autodesk Inventor**: 3D modeling and part preparation for printing.
+- **STM32 CubeIDE**: Programming ST boards to handle game functions.
+- **Visual Studio**: Organizes and structures the code for clarity and maintainability.
 
-The following tools are essential for developing and finalizing Capacitron Duel:
+## Resources
 
-Modeling and Simulation
+The following tools were essential in the development of **Capacitron Duel**:
 
-COMSOL: Physical simulation for electrode forces.
-Partquest: Electrical schematic modeling and simulation.
-Draw.io: Creation of conceptual diagrams.
-Design and Prototyping
+### Modeling and Simulation
+- **COMSOL**: Simulates physical forces on electrodes.
+- **Partquest**: Electrical schematic modeling and simulation.
+- **Draw.io**: Creates conceptual diagrams.
 
-KiCad: PCB design.
-Autodesk Inventor: 3D part modeling for printing.
-Software Development
+### Design and Prototyping
+- **KiCad**: For PCB design.
+- **Autodesk Inventor**: For 3D part modeling and printing preparation.
 
-STM32 CubeIDE: Coding for ST boards.
-Visual Studio: Code formatting and management.
+### Software Development
+- **STM32 CubeIDE**: For coding on ST boards.
+- **Visual Studio**: For code formatting and project management.
